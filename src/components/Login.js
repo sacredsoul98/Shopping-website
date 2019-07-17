@@ -19,13 +19,13 @@ class Login extends Component {
 
     onChange(e) {
 
-        if (e.target.name == "email") {
+        if (e.target.name === "email") {
             this.setState({
                 email: e.target.value
             })
         }
 
-        if (e.target.name == "password") {
+        if (e.target.name === "password") {
             this.setState({
                 password: e.target.value
             })
@@ -63,7 +63,7 @@ class Login extends Component {
     }
 
     render() {
-        if (this.state.loggedInStatus == true) {
+        if (this.state.loggedInStatus === true) {
             return (<Redirect to="/" />)
         }
         return (
