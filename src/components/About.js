@@ -12,7 +12,7 @@ class About extends Component {
                         <a href="index.html">Home</a>
                     </li>
                     <li className="breadcrumb-item active">
-                        <a href="about.html"></a>About</li>
+                        <a href="about.html">about</a>About</li>
                 </ol>
 
                 <div className="row">
