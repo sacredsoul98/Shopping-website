@@ -81,7 +81,7 @@ class Header extends Component {
                                             <Link className="nav-link" to="/myorders">My Orders</Link>
                                         </li>
                                         <li className="nav-item">
-                                            <a onClick={this.logout} className="nav-link">Logout</a>
+                                            <a onClick={this.logout()} className="nav-link">Logout</a>
                                         </li>
                                     </React.Fragment>
                                 )
